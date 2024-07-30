@@ -1,0 +1,9 @@
+.coffee {
+    position: absolute;
+    max-width: 7rem;
+    min-height: 12rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+    left: -2rem;
+    z-index: 1000;
+}

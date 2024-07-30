@@ -1,0 +1,15 @@
+.navigation {
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            color: $color-black;
+        }
+    }
+}

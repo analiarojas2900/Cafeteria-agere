@@ -1,0 +1,18 @@
+.header {
+    @include flex-center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: $color-white;
+
+    &__logo a {
+        @include font-pt-mono(24px);
+        color: $color-black;
+        text-decoration: none;
+    }
+
+    &__buttons {
+        .button {
+            margin-left: 1rem;
+        }
+    }
+}
